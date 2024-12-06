@@ -27,7 +27,7 @@ export const Modal = ({ isOpen, closeModal, newProduct, recommendations }) => {
         </div>
 
         {/* Allergen Information */}
-        <Allergen />
+        <Allergen newProduct ={newProduct} />
         
         {/* Button to trigger recommendation view */}
         <button className="recommend-button" onClick={handleRecommendClick}>Recommend</button>

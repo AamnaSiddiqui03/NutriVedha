@@ -22,8 +22,8 @@ function CardDisplay(props) {
 
   return (
     <div className="card">
-      <h3>{props.product_name}</h3>
-      <p><span style={{ color: getNutriScoreColor(props.nutri_score_category) }} ><strong>Product_Type:</strong> {props.category}</span></p>
+      <h3><strong><span style={{ color: getNutriScoreColor(props.nutri_score_category) }} >{props.product_name}</span></strong></h3>
+      <p><strong>Product_Type:</strong> {props.category}</p>
       <p>
         <strong>nutri_score_category:</strong>
         <span
