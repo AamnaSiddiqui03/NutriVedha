@@ -7,6 +7,7 @@ __pycache__/
 venv/
 .env
 
+
 # Environment variables
 .env
 *.env
@@ -17,6 +18,8 @@ instance/
 # Database files
 *.sqlite3
 *.db
+backend/dataset/nutrition_table.csv
+
 
 # Logs
 *.log
