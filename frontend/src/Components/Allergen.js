@@ -26,6 +26,8 @@ const allergens = [
 ];
 
 function Allergen({ newProduct }) {
+
+  
   if (!newProduct) {
     // If newProduct is undefined, return null or a loading state (if necessary)
     return <div>Loading...</div>;
