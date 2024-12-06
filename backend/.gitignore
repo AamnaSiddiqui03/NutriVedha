@@ -1,0 +1,29 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folder
+venv/
+.env
+
+# Environment variables
+.env
+*.env
+
+# Instance folder (used for local configurations in Flask)
+instance/
+
+# Database files
+*.sqlite3
+*.db
+
+# Logs
+*.log
+logs/
+
+# MacOS-specific files
+.DS_Store
+
+# Pytest cache
+.pytest_cache/

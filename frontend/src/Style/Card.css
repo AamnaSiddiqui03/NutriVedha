@@ -1,0 +1,32 @@
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 8px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+.card-photo {
+  width: 80px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.aboutusH1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}

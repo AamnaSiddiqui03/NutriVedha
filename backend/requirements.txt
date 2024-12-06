@@ -1,0 +1,7 @@
+flask
+google-generativeai
+langchain_google_genai
+langchain-community
+langchain
+python-dotenv
+scikit-learn

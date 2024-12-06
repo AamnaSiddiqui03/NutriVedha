@@ -1,0 +1,144 @@
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Ensure modal is on top */
+  }
+  
+  /* Modal Content Box */
+  .modal-content {
+    background-color: white !important; /* White background for the modal content */
+    background-image: url('../images/food.jpg');
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 90%; /* Optional: set a max width */
+    width: 100%;
+    position: relative; /* For positioning the close button */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    z-index: 10000; /* Ensure content is above overlay */
+    text-align: center; /* Center text inside the modal */
+  }
+  
+  /* Close Button (icon) Styling */
+  .close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .close-icon:hover {
+    color: #ff0000; /* Change color on hover */
+  }
+  
+  /* Recommend Button Styling */
+  .recommend-button {
+    background-color: #4CAF50;
+    width: 200px;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .recommend-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Nutri-Score Color Styling */
+  .nutri-score {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    width: 300px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .nutri-score.A {
+    background-color: #4CAF50; /* Green for A */
+  }
+  
+  .nutri-score.B {
+    background-color: #8BC34A; /* Lighter green for B */
+  }
+  
+  .nutri-score.C {
+    background-color: #FFC107; /* Yellow for C */
+  }
+  
+  .nutri-score.D {
+    background-color: #FF5722; /* Orange for D */
+  }
+  
+  .nutri-score.E {
+    background-color: #F44336; /* Red for E */
+  }
+  
+  /* Modal Content Text */
+  h2, h3, p {
+    margin: 5px 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* New Product Section Styling */
+  .new-product {
+    text-align: center;
+    margin-bottom: 4px;
+  }
+  
+  .product-type {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .product-nutriscore {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  /* Recommend Component Styling */
+  .recommend-container {
+    padding: 4px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-top: 5px;
+  }
+  
+  .recommend-container h2 {
+    font-size: 1.5rem;
+    color: #3d080d;
+    text-align: center;
+  }
+  
+  .recommend-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .recommend-container li {
+    margin: 5px 0;
+  }
+  

@@ -1,0 +1,46 @@
+.image-upload-container {
+    max-width: 83%;
+    margin: 30px auto;
+    padding: 10px;
+    background-color:#927056; /* Light mauve background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0.1, 0.12);
+  }
+  
+  h2 {
+    color: #5c3c14; /* Dark mauve color */
+    margin-bottom: 20px;
+  }
+  
+  .image-upload-box {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px dashed #3d080d; /* Mauve border */
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .upload-label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #5c3c14; /* Dark mauve color */
+  }
+  
+  .file-input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .preview-image {
+    width: 250px; /* Fixed width */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  
+  .image-upload-services{
+    background-image: url('./images/food.jpg');
+  }

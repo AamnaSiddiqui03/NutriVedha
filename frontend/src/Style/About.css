@@ -1,0 +1,153 @@
+/* About Us Section Styles */
+.aboutus-section {
+  background-color: #f7f7f7;
+  padding: 100px 0;
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.aboutus-heading {
+  color: #3d080d; /* Maroon color */
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.aboutus-text {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.aboutus-description {
+  flex: 1;
+  max-width: 38%;
+  padding-right: 40px;
+}
+
+.aboutus-image {
+  flex: 1;
+  max-width: 30%;
+  text-align: justify;
+}
+
+.aboutus-banner-image {
+  width: 100%;
+  max-width: 800px;
+  height: 500px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.aboutus-row{
+  margin: 50px 0px;
+}
+
+/* Services Section */
+.aboutus-services {
+  /* background-color: #3d080d; */
+  width: 40%;
+  margin-left: 900px;
+  color: rgb(0, 0, 0);
+  padding: 50px;
+  margin-top: 30px;
+  text-align: justify;
+  opacity: 1; /* Always visible */
+  transform: translateX(0); /* No need to animate offscreen */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Align content to the right */
+}
+
+.aboutus-services.animate {
+  transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+.aboutus-services-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.aboutus-services-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.aboutus-services-list li {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+/* Nutri Scores Section */
+.aboutus-nutri-scores {
+  padding: 50px 20px;
+}
+
+.aboutus-nutri-scores-heading {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 20px;
+  color: #3d080d;
+  margin-bottom: 40px;
+}
+
+.aboutus-nutri-scores-row {
+  margin-bottom: 60px;
+}
+
+.aboutus-nutri-score-card {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  margin: 17px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.aboutus-nutri-score-card:hover {
+  transform: scale(1.05);
+}
+
+.aboutus-nutri-score-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3d080d;
+  margin-bottom: 10px;
+}
+
+.aboutus-nutri-score-description {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .aboutus-description,
+  .aboutus-image {
+      max-width: 100%;
+      padding: 20px;
+  }
+
+  .aboutus-services-heading,
+  .aboutus-nutri-scores-heading {
+      font-size: 1.8rem;
+  }
+
+  .aboutus-services-list li {
+      font-size: 1rem;
+  }
+}
